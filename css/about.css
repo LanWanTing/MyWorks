@@ -1,0 +1,194 @@
+/*about設定================================================================================*/
+
+.aboutWrap {
+    max-width: 1050px;
+    padding: 2rem 0rem 1rem;
+    margin: 0 auto;
+}
+
+.aboutWrap .fullContent {
+    clear: both;
+    padding: 2.5rem 1rem 0;
+    overflow: hidden;
+}
+
+.aboutWrap .leftBox,
+.aboutWrap .rightBox {
+    float: left;
+    width: 50%;
+    padding: 0 1rem;
+}
+
+.aboutWrap .rightBox {
+    float: right;
+}
+
+.aboutTitle {
+    font-size: 1.25rem;
+    line-height: 3rem;
+    font-weight: 600;
+    padding-left: .3rem;
+}
+
+.education,
+.work {
+    position: relative;
+}
+
+.listContent {
+    list-style: none;
+    padding-left: 6px;
+    overflow: hidden;
+}
+
+.listContent table {
+    text-align: left;
+}
+
+.listContent table tr th:first-of-type {
+    padding: 0 .2rem;
+}
+
+.listContent table tr td:first-of-type {
+    border-right: #aaa solid 1px;
+}
+
+.listContent table th:last-of-type,
+.listContent table tr td:last-of-type {
+    text-align: left;
+    padding-left: .2rem;
+}
+
+.listContent table td:last-of-type {
+    padding-bottom: 1.4rem;
+    padding-top: .25rem;
+}
+.listContent li:last-of-type td:last-of-type {
+    padding-bottom: .25rem;
+}
+
+.listContent table .circle {
+    background-color: #888;
+    border-radius: 8px;
+    width: 6px;
+    height: 6px;
+}
+
+.listContent span{
+    display: inline-block;
+    line-height: 1.4rem;
+}
+
+.date {
+    color: #888;
+    font-size: .9rem;
+    letter-spacing: 1px;
+}
+.listContent .momoShow{display: inline-block;}
+.listContent .momoHide{display: none;}
+
+.workList {
+    list-style: square;
+    padding-left: 1rem;
+    margin-top: .3rem;
+    margin-left: .2rem;
+    overflow: hidden;
+}
+
+.workList li {
+    padding-bottom: 0px;
+    color: #484848;
+    line-height: 1.4rem;
+    font-size: .9rem;
+}
+
+.skillTitle {
+    padding-left: 1.3rem;
+}
+
+.skillList,
+.elseList {
+    list-style: disc;
+    overflow: hidden;
+    padding-left: 1.9rem;
+}
+
+.skillList li,
+.elseList li {
+    padding-bottom: .3rem;
+}
+
+.skillList {
+    padding-left: 2.85rem;
+}
+
+.skillList li {
+    float: left;
+    width: 47.6%;
+}
+
+.skillList li:nth-of-type(odd) {
+    width: 52.4%;
+}
+
+.clear {
+    clear: both;
+    padding: 2rem 0;
+}
+
+@media screen and (max-width:992px) {
+    .aboutWrap .leftBox,
+    .aboutWrap .rightBox {
+        float: none;
+        width: 100%;
+    }
+    .aboutWrap .rightBox {
+        float: none;
+    }
+    .skillList li {
+        float: none;
+        width: 100%;
+    }
+
+    .skillList li:nth-of-type(odd) {
+        width: 100%;
+    }
+    .aboutWrap .fullContent {
+        padding: 2.5rem 2.5rem 0;
+    }
+    .rightBox .aboutTitle {
+        padding-top: 2.5rem;
+    }
+    .clear {
+        padding: 1rem 0;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .aboutWrap .fullContent {
+        padding: 2rem .5rem 0;
+    }
+    .rightBox .aboutTitle {
+        padding-top: 2rem;
+    }
+    footer {
+        padding: 2rem 1.6rem 0;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .aboutWrap .fullContent {
+        padding: 1rem 0rem 0;
+    }
+    .rightBox .aboutTitle {
+        padding-top: 1rem;
+    }
+    .clear {
+        padding: .5rem 0;
+    }
+    .listContent .momoHide{display: inline-block;}
+    .listContent .momoShow{display: none;}
+    footer {
+        padding: 2rem 1rem 0;
+    }
+}

@@ -1,0 +1,74 @@
+<html lan="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0 ,user-scalable=no">
+    <title>今夏新冰樂│APP&amp;WEB│Lan Design Works</title>
+    <link href="../favicon.ico" rel="icon">
+    <link href="../favicon.ico" rel="shortcut icon">
+    <link href="../apple-touch-icon.png" rel="apple-touch-icon">
+    <!--微動畫css-->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!--google字型-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <!--jquery-->
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <!--fancyBox-->
+    <link rel="stylesheet" href="../js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <script src="../js/fancybox/jquery.fancybox.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".fancybox")
+                .attr('rel', 'gallery')
+                .fancybox({
+                    padding: 0,
+                    maxHeight:700,
+                    openEffect: 'none',
+                    closeEffect: 'none',
+                    nextEffect: 'none',
+                    prevEffect: 'none',
+                    margin: [20, 60, 20, 60]
+                });
+        });
+    </script>
+    <!--共用js-->
+    <script src="../js/edit/gallery.js"></script>
+    <!--共用css-->
+    <link rel="stylesheet" href="../css/web.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <div id="iMain">
+        <div class="pWorks">
+            <a href="../web1.html" class="closeBtn workClose" title="返回列表">
+                <span class="closeLine1"></span>
+                <span class="closeLine2"></span>
+                <span class="closeLine3"></span>
+            </a>
+            <div class="workTxtArea">
+                <h1>今夏新冰樂 / 手機版設計</h1>
+                <h3>momoTV APP 2018年5月行銷活動</h3>
+                <div class="workTxtContent">今夏新冰樂為7月MOD通路行銷主打活動，僅提供給MOD收視用戶的優惠活動。主視覺主題為Momoco&amp;Kiwi邀你來momo購物台吃冰，冰也是本次活動的主要贈品，在色調以涼感藍色呈現夏日消暑之感。翻牌與抽牌皆採用CSS3的動畫效果呈現</div>
+                <div class="workSeries">
+                    <p>系列作品</p>
+                    <ul class="workPhoto">
+                       <li>
+                            <a class="fancybox" href="../images/2018/20180625_1p.jpg" data-fancybox-group="gallery" title="今夏新冰樂Banner">Banner</a>
+                        </li>
+                        <li>
+                            <a class="fancybox" href="../images/2018/20180625_1t.jpg" data-fancybox-group="gallery" title="今夏新冰樂EDM">活動EDM</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="workBtnBox">
+                    <a href="web1-3.html" class="workPrevBtn" title="上一件作品">&laquo;&nbsp;PREV&nbsp;</a>
+                    <a href="web1-5.html" class="workNextBtn" title="下一件作品">&nbsp;NEXT&nbsp;&raquo;</a>
+                </div>
+            </div>
+            <div class="workPicArea">
+                <div class="picBox app1"><a href="https://tv.momoshop.com.tw/edm.momo?npn=1vEJxpdQTeoO&n=1" target="_blank"><img src="../images/2018/20180625_1app.jpg" width="100%" alt="今夏新冰樂APP活動主頁"></a></div>
+            </div>
+        </div>
+    </div>
+</body>

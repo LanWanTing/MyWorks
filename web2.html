@@ -1,0 +1,275 @@
+<html lan="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0 ,user-scalable=no">
+    <title>My</title>
+    <link href="favicon.ico" rel="icon">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="apple-touch-icon.png" rel="apple-touch-icon">
+    <!--微動畫css-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--共用css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--google字型-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <!--jquery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!--瀑布流-->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <!--圖片讀取完畢-->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script>
+        /*瀑布流效果*/
+        $(function() {
+            /*$('.masonry').masonry({
+					  itemSelector: '.item'
+					});*/
+            var $container = $('.masonry');
+            //當圖片讀取完畢才執行
+            $container.imagesLoaded(function() {
+                // initialize
+                $container.masonry({
+                    itemSelector: '.item'
+                });
+            });
+        });
+    </script>
+    <!--速度函數表-->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!--wow-->
+    <script src="js/jquery.wow-1.0.3.min.js"></script>
+    <script>
+        var wow = new WOW({
+            offset: 60, // 距離顯示多遠開始顯示動畫 (預設是0, 因此捲動到顯示時才出現動畫)
+            mobile: true,
+            live: true
+        });
+        wow.init();
+    </script>
+    <!--共用js-->
+    <script src="js/edit/menu.js"></script>
+</head>
+
+<body>
+    <div id="iMain">
+        <header>
+            <h1>LAN DESIGN WORKS</h1>
+            <div class="menuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <div class="menuWrap">
+            <div class="menuBox">
+                <ul class="navBox">
+                    <li class="wow fadeInLeft" data-wow-delay="0.5s"><a href="about.html">ABOUT LAN<br><span>關於我</span></a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="0.8s"><a href="app.html">APP UI<br><span>APP&amp;UI設計</span></a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="1.1s"><a href="web1.html">APP<b class="simpleTtx">&amp;</b>WEB<br><span>APP&amp;網頁設計</span></a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="1.5s"><a href="graphic.html">GRAPHIC<br><span>平面設計</span></a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="1.9s"><a href="image.html">IMAGE<br><span>形象設計</span></a></li>
+                </ul>
+                <p class="wow fadeInDown menuTxt" data-wow-delay="2s">LAN DESIGN WORKS<br><span>2008-2018</span></p>
+            </div>
+        </div>
+        <div class="mainWrap">
+            <h1>APP&nbsp;&amp;&nbsp;WEB</h1>
+            <ul class="masonry proList">
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="就愛跟你LINE一起"><img src="images/2018/20180528_1p.gif" width="100%" alt="就愛跟你LINE一起">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="歡樂補班日"><img src="images/2018/20180331_1p.jpg" width="100%" alt="歡樂補班日">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="瘋狂骰子樂"><img src="images/2018/20180322_1p.jpg" width="100%" alt="瘋狂骰子樂">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="偷新4小時"><img src="images/2018/20180305_2p.jpg" width="100%" alt="偷新4小時">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="驚喜大放送"><img src="images/2018/20180305_3p.jpg" width="100%" alt="驚喜大放送">
+                        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="春上市"><img src="images/2018/20180305_1p.jpg" width="100%" alt="春上市">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="心花朵朵開"><img src="images/2018/20180206_2p.jpg" width="100%" alt="心花朵朵開">
+                        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="窈窕迎新年"><img src="images/2018/20180215_2p.jpg" width="100%" alt="窈窕迎新年">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="對我而言？？的她"><img src="images/2018/20180210_1p.gif" width="100%" alt="對我而言？？的她">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="超級A咖品牌特展"><img src="images/2018/20180124_1p.jpg" width="100%" alt="超級A咖品牌特展">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="web/web2-11.html" title="春遊瘋享樂"><img src="images/2018/20180115_2p.jpg" width="100%" alt="春遊瘋享樂">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="評價拿好禮"><img src="images/2017/20171007_1p.jpg" width="100%" alt="評價拿好禮">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="甜心入會禮"><img src="images/2017/20171001_1p.jpg" width="100%" alt="甜心入會禮">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="VIP爆夯同樂會"><img src="images/2017/20170825_1p.jpg" width="100%" alt="VIP爆夯同樂會">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="NEW客大輪盤"><img src="images/2017/20170801_1p.jpg" width="100%" alt="NEW客大輪盤">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="鬼門開"><img src="images/2017/20170822_1p.jpg" width="100%" alt="7月會員歡樂首購禮">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="7月會員歡樂首購禮"><img src="images/2017/20170701_1p.jpg" width="100%" alt="7月會員歡樂首購禮">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="台灣虎航VIP獨享好康"><img src="images/2017/20170410_3p.jpg" width="100%" alt="台灣虎航VIP獨享好康">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                 <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="喜從天降"><img src="images/2017/20170327_1p.jpg" width="100%" alt="喜從天降">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="無3不成器"><img src="images/2017/20170214_1p.jpg" width="100%" alt="無3不成器">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="開工發財金"><img src="images/2017/20170201_1p.gif" width="100%" alt="開工發財金">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="吉祥話搶好禮"><img src="images/2017/20170127_1p.jpg" width="100%" alt="吉祥話搶好禮">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="暖被迎春入好眠"><img src="images/2017/20170120_1p.jpg" width="100%" alt="暖被迎春入好眠">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="吉年亨通爭奪賽"><img src="images/2017/20170101_1p.jpg" width="100%" alt="吉年亨通爭奪賽">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="雙12全民瘋狂搶"><img src="images/2016/20161212_1p.jpg" width="100%" alt="雙12全民瘋狂搶">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="週年雙享樂翻天"><img src="images/2016/20161011_1p.jpg" width="100%" alt="週年雙享樂翻天">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="暖眠眠享生活"><img src="images/2016/20161006_1p.jpg" width="100%" alt="暖眠眠享生活">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="窈窕俱樂部"><img src="images/2016/20160923_1p.jpg" width="100%" alt="窈窕俱樂部">
+                        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="掃描登記送"><img src="images/2016/20160819_1p.jpg" width="100%" alt="掃描登記送">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="情人甜到心坎禮"><img src="images/2016/20160801_1p.jpg" width="100%" alt="情人甜到心坎禮">
+                       <div class="cover"><div class="view">VIEW</div></div>
+                    </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="夏季行動旅展"><img src="images/2016/20160628_1p.jpg" width="100%" alt="夏季行動旅展">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="春漾嘻遊記"><img src="images/2016/20160401_1p.jpg" width="100%" alt="春漾嘻遊記">
+                        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="暢貨出清"><img src="images/2018/20180123_1p.jpg" width="100%" alt="暢貨出清">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="服裝爆款集合"><img src="images/2018/20180109_1p1.jpg" width="100%" alt="服裝爆款集合">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="#" title="服裝爆款集合"><img src="images/2018/20180109_1p2.jpg" width="100%" alt="服裝爆款集合">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="#" title="服裝爆款集合"><img src="images/2018/20180109_1p3.jpg" width="100%" alt="服裝爆款集合">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>     
+            </ul>
+            <div class="pageBox">
+                <ul>
+                    <li><a href="web1.html" title="上一頁">&lt;</a></li>
+                    <li><a href="web1.html" title="第1頁">1</a></li>
+                    <li><a href="javascript:;" title="第2頁" class="thisPage">2</a></li>
+                    <li><a href="web3.html" title="第3頁">3</a></li>
+                    <li><a href="web3.html" title="下一頁">&gt;</a></li>
+                </ul>
+            </div>
+            <footer>COPYRIGHT&nbsp;&nbsp;&copy;&nbsp;&nbsp;LAN DESIGN WORKS 2008-2018.&nbsp;&nbsp;&nbsp;&nbsp;ALL RIGHTS RESERVED&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DESIGN BY TINA LAN</footer>
+        </div>
+        <div class="topBtn"></div>
+    </div>
+</body>
+
+</html>

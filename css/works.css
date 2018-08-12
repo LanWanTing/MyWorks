@@ -1,0 +1,26 @@
+.mainWrap .proList li {
+    width: calc(100% / 5);
+}
+.worksBorder{
+    border: 1px solid #eee;
+}
+@media screen and (max-width:1200px) {
+    .mainWrap .proList li {
+        width: calc(100% / 4);
+    }
+}
+@media screen and (max-width:992px) {
+    .mainWrap .proList li {
+        width: calc(100% / 3);
+    }
+}
+@media screen and (max-width:768px) {
+    .mainWrap .proList li {
+        width: calc(100% / 2);
+    }
+}
+@media screen and (max-width:576px) {
+    .mainWrap .proList li {
+        width: 100%;
+    }
+}

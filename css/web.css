@@ -15,11 +15,18 @@
     width: 100%;
 }
 
+.app1 {
+    opacity: 1;
+    display: block;
+}
+
 .app2,
 .app3,
 .app4 {
+    opacity: 0;
     display: none;
 }
+
 
 .pWorks .workTxtArea {
     position: fixed;
@@ -200,6 +207,10 @@
 }
 
 @media screen and (max-width:576px) {
+    .workTxtArea h1 {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
     .workTxtArea h3 {
         font-size: 1rem;
         line-height: 1.6rem;
@@ -217,9 +228,8 @@
         font-size: 1rem;
         line-height: 2.2rem;
     }
-    .workTxtArea h1 {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
+    .workSeries p{
+        font-size: 1rem;
     }
 }
 

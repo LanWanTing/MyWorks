@@ -556,10 +556,10 @@ footer span{
     background: url(../images/top.png) no-repeat;
     background-position: center center;
     background-size: 40px 26px;
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .7);
     position: fixed;
-    right: 2%;
-    bottom: 7%;
+    right: 3rem;
+    bottom: 3rem;
     cursor: pointer
 }
 
@@ -568,8 +568,8 @@ footer span{
 }
 @media screen and (max-width:576px) {
     .topBtn {
-        right: 0%;
-        bottom: 10%;
+        right: 0;
+        bottom: 5rem;
     }
 }
 /*animate zoomIn 修改===================================================================*/

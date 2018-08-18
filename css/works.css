@@ -1,3 +1,10 @@
+.mainWrap .proList li {
+    float: left;
+    width: calc(100% / 5);
+    padding: 1rem;
+}
+
+
 .pWorks {
     width: 100%;
     margin: 0 auto;
@@ -61,7 +68,7 @@
     width: 190px;
     overflow: hidden;
     margin: 0 auto;
-    margin-top: 6rem;
+    margin-top: 1.5rem;
 }
 
 .workPrevBtn,
@@ -155,6 +162,10 @@
     .workPicArea {
         padding: 0 5.5rem 1rem;
     }
+    .mainWrap .proList li {
+        width: calc(100%/4);
+        padding: .6rem;
+    }
 }
 
 @media screen and (max-width:1100px) {
@@ -166,7 +177,6 @@
         width: 100%;
         padding: 0 5.5rem 1rem;
     }
-
 }
 
 @media screen and (max-width:992px) {
@@ -188,7 +198,10 @@
         line-height: 1.8rem;
         padding-bottom: 2rem;
     }
-
+    .mainWrap .proList li {
+        width: calc(100%/3);
+        padding: .7rem;
+    }
 }
 
 @media screen and (max-width:768px) {
@@ -203,6 +216,10 @@
         font-weight: normal;
         line-height: 1.8rem;
         color: #888;
+    }
+    .mainWrap .proList li {
+        width: calc(100%/2);
+        padding: .5rem;
     }
 }
 
@@ -230,10 +247,16 @@
         font-size: .9rem;
         line-height: 1.25rem;
     }
+    .mainWrap .proList li {
+        width: 100%;
+        padding: .5rem 0;
+    }
 }
 
 /*fancybox*/
-
+.fancybox{
+    display: block;
+}
 .fancybox-skin {
     border-radius: 0px;
 }
@@ -365,16 +388,17 @@
 /*app圖切換*/
 
 .workPicArea .workApp {
-    padding: 1rem 0 1rem 1rem;
-    position: absolute;
-    right: 0;
+    padding: 1rem 0;
     display: block;
+    width: 100%;
+    overflow: hidden;
 }
 
 .workApp ul {
     overflow: hidden;
     list-style: none;
     text-align: center;
+    float: right;
 }
 
 .workApp li {
@@ -396,22 +420,4 @@
 
 .workApp li:hover b {
     background-color: rgba(0, 0, 0, 1);
-}
-
-@media screen and (max-width:1350px) {
-    .workPicArea .workApp {
-        padding: 1rem 5.5rem 1rem 1rem;
-    }
-}
-
-@media screen and (max-width:992px) {
-    .workPicArea .workApp {
-        padding: 1rem 3rem 1rem 1rem;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .workPicArea .workApp {
-        padding: 1rem 0rem 1rem 1rem;
-    }
 }

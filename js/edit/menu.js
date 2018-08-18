@@ -34,6 +34,6 @@ $(function(){
         }
     });
     $('.topBtn').click(function(){
-        $('html,body').animate({scrollTop:0} ,1500 ,'easeOutCirc');
+        $('html,body').animate({scrollTop:0} ,1500 ,'easeInOutQuint');
     });
 });

@@ -16,7 +16,7 @@
     max-width: 1100px;
     margin: 0 auto;
     position: relative;
-    padding-bottom: 3rem;
+    padding-bottom: 5rem;
 }
 
 .workPicArea .picBox {
@@ -30,7 +30,10 @@
 
 .app2,
 .app3,
-.app4 {
+.app4,
+.app5,
+.app6,
+.app7 {
     opacity: 0;
     display: none;
 }
@@ -68,7 +71,7 @@
     width: 190px;
     overflow: hidden;
     margin: 0 auto;
-    margin-top: 1.5rem;
+    margin-top: 1rem;
 }
 
 .workPrevBtn,
@@ -160,7 +163,7 @@
         padding: 0 5.5rem 1rem;
     }
     .workPicArea {
-        padding: 0 5.5rem 1rem;
+        padding: 0 5.5rem 3rem;
     }
     .mainWrap .proList li {
         width: calc(100%/4);
@@ -175,7 +178,7 @@
     }
     .workPicArea {
         width: 100%;
-        padding: 0 5.5rem 1rem;
+        padding: 0 5.5rem 3rem;
     }
 }
 
@@ -184,7 +187,7 @@
         padding: 0 3rem 1rem;
     }
     .workPicArea {
-        padding: 0 3rem 1rem;
+        padding: 0 3rem 3rem;
     }
     .workTxtArea h1 {
         font-size: 1.8rem;
@@ -254,9 +257,23 @@
 }
 
 /*fancybox*/
-.fancybox{
+
+.fancybox {
     display: block;
 }
+
+.picSmall {
+    display: none;
+}
+
+.picBig {
+    display: block;
+}
+
+.imgBorder {
+    border: 1px solid #ddd;
+}
+
 .fancybox-skin {
     border-radius: 0px;
 }
@@ -379,6 +396,16 @@
     }
 }
 
+@media screen and (max-width:768px) {
+    .picSmall {
+        display: block;
+    }
+
+    .picBig {
+        display: none;
+    }
+}
+
 @media screen and (max-width:576px) {
     .closeBtn {
         left: 1.5rem;
@@ -392,6 +419,8 @@
     display: block;
     width: 100%;
     overflow: hidden;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 2rem;
 }
 
 .workApp ul {

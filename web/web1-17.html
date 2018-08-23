@@ -1,9 +1,8 @@
 <html lan="zh-Hant-TW">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0 ,user-scalable=no">
-    <title>春遊瘋享樂│APP&amp;WEB│Lan Design Works</title>
+    <title>沁夏來點名│APP&amp;WEB│Lan Design Works</title>
     <link href="../favicon.ico" rel="icon">
     <link href="../favicon.ico" rel="shortcut icon">
     <link href="../apple-touch-icon.png" rel="apple-touch-icon">
@@ -15,8 +14,8 @@
     <!--jquery-->
     <script src="../js/jquery-3.2.1.min.js"></script>
     <!--fancyBox-->
-    <link rel="stylesheet" href="../js/fancybox/source/jquery.fancybox.css" type="text/css" media="screen" />
-    <script src="../js/fancybox/source/jquery.fancybox.js"></script>
+    <link rel="stylesheet" href="../js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+    <script src="../js/fancybox/jquery.fancybox.js"></script>
     <script type="text/javascript">
         $(document).ready(function() {
             $(".fancybox")
@@ -27,13 +26,14 @@
                     closeEffect: 'none',
                     nextEffect: 'none',
                     prevEffect: 'none',
-                    padding: 0,
+                    maxHeight:700,
                     margin: [20, 60, 20, 60]
                 });
         });
     </script>
     <!--共用js-->
-    <script src="../js/gallery.js"></script>
+    <script src="../js/edit/gallery.js"></script>
+    <script src="../js/edit/analytics.js"></script>
     <!--共用css-->
     <link rel="stylesheet" href="../css/web.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -42,22 +42,30 @@
 <body>
     <div id="iMain">
         <div class="pWorks">
-            <a href="../web2.html" class="closeBtn workClose" title="返回列表">
+            <a href="../web1.html" class="closeBtn workClose" title="返回列表">
                 <span class="closeLine1"></span>
                 <span class="closeLine2"></span>
                 <span class="closeLine3"></span>
             </a>
             <div class="workTxtArea">
-                <h1>春遊瘋享樂 / 手機版設計</h1>
-                <h3>momoTV APP 2018年1月行銷活動</h3>
-                <div class="workTxtContent"> 春遊瘋享樂為1月主打行銷活動，以三個不同時段的行銷手法進行，分別為「拉霸樂」、「驚喜抽」、「加碼抽」。主視覺以「春天踏青出遊享野餐」的概念製作，在拉霸活動上採用CSS3動畫效果製作。 </div>
+                <h1>沁夏來點名 / 手機版設計</h1>
+                <h3>momoTV APP 2018年7月行銷活動</h3>
+                <div class="workTxtContent">沁夏來點名為7月首購新會員活動。主視覺以「可愛青蛙悠哉泡荷花池」來契合本次活動主題。</div>
+                <div class="workSeries">
+                    <p>系列作品</p>
+                    <ul class="workPhoto">
+                        <li>
+                            <a class="fancybox" href="../images/2018/20180716_1p.jpg" data-fancybox-group="gallery" title="沁夏來點名Banner">Banner</a>
+                        </li>
+                    </ul>
+                </div>
                 <div class="workBtnBox">
-                    <a href="web2-10.html" class="workPrevBtn" title="上一件作品">&laquo;&nbsp;PREV&nbsp;</a>
-                    <a href="web2-12.html" class="workNextBtn" title="下一件作品">&nbsp;NEXT&nbsp;&raquo;</a>
+                    <a href="web1-16.html" class="workPrevBtn" title="上一件作品">&laquo;&nbsp;PREV&nbsp;</a>
+                    <a href="web1-18.html" class="workNextBtn" title="下一件作品">&nbsp;NEXT&nbsp;&raquo;</a>
                 </div>
             </div>
             <div class="workPicArea">
-                <div class="picBox app1"><img src="../images/2018/20180115_2app.jpg" width="100%" alt="春遊瘋享樂APP版面"></div>
+                <div class="picBox app1"><img src="../images/2018/20180716_1app.jpg" width="100%" alt="春遊瘋享樂APP活動主頁"></div>
             </div>
         </div>
     </div>

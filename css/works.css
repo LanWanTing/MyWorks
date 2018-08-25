@@ -1,6 +1,6 @@
 .mainWrap .proList li {
     float: left;
-    width: calc(100% / 5);
+    width: calc(100% / 3);
     padding: 1rem;
 }
 
@@ -166,7 +166,7 @@
         padding: 0 5.5rem 3rem;
     }
     .mainWrap .proList li {
-        width: calc(100%/4);
+        width: calc(100%/3);
         padding: .6rem;
     }
 }
@@ -229,7 +229,7 @@
 @media screen and (max-width:576px) {
     .workTxtArea h1 {
         font-size: 1.4rem;
-        line-height: 1.6rem;
+        line-height: 2rem;
     }
     .workTxtArea h3 {
         font-size: 1rem;

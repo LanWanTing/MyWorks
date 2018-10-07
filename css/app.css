@@ -1,0 +1,421 @@
+.pWorks {
+    width: 100%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family:'Arial','Microsoft Sans Serif';
+}
+
+.workPicArea {
+    width: 50%;
+    height: 100%;
+    float: right;
+    position: relative;
+    padding: 5% 0;
+}
+
+.workPicArea .picBox {
+    width: 100%;
+}
+
+.app1 {
+    opacity: 1;
+    display: block;
+}
+
+.app2,
+.app3,
+.app4 {
+    opacity: 0;
+    display: none;
+}
+
+
+.pWorks .workTxtArea {
+    position: fixed;
+    width: 50%;
+    top: 50%;
+    left: 0;
+    padding: 0 0 0 10rem;
+    transform: translate(0, -50%);
+}
+
+.workTxtArea h1 {
+    font-weight: bold;
+    line-height: 4rem;
+    text-align: center;
+    letter-spacing: .2px;
+    font-size: 2.8rem;
+}
+
+.workTxtArea h3 {
+    font-weight: normal;
+    font-size: 1.25rem;
+    line-height: 2rem;
+    color: #555555;
+    text-align: center;
+}
+
+.workTxtArea .workTxtContent {
+    font-size: 1.25rem;
+    line-height: 2rem;
+    text-align: justify;
+    padding-top: .8rem;
+    padding-bottom: 2rem;
+    padding-right: .5rem;
+}
+
+.workBtnBox {
+    width: 190px;
+    overflow: hidden;
+}
+
+.workPrevBtn,
+.workNextBtn {
+    float: left;
+    display: block;
+    width: 90px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 2.2rem;
+    letter-spacing: 1px;
+    color: #FFF;
+    background-color: #252525;
+}
+
+.workPrevBtn {
+    top: 0;
+    left: 0;
+}
+
+.workNextBtn {
+    float: right;
+    top: 0;
+    right: 0;
+}
+
+.btnNo {
+    background-color: #555;
+}
+
+.workPrevBtn:hover,
+.workNextBtn:hover {
+    background-color: #000;
+}
+
+.workSeries {
+    margin-bottom: 2rem;
+}
+
+.workSeries img {
+    display: block;
+    width: 100%;
+    -webkit-transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    transform: scale(1, 1);
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.workSeries p {
+    font-size: 1.1rem;
+    padding-top: 2rem;
+    padding-bottom: .5rem;
+    color: #666666;
+    text-align: center;
+}
+
+.workSeries ul {
+    list-style: none;
+    overflow: hidden;
+    width: 100%;
+}
+
+.workSeries li {
+    float: left;
+    padding: .6rem;
+    padding-left: 0;
+    text-align: center;
+}
+.workSeries li a {
+    text-decoration: none;
+    padding: .5rem .7rem;
+    color: #252525;
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    word-break: keep-all;
+}
+
+.workSeries li:hover a {
+    color: #fff;
+    background-color: #252525;
+    border: 1px solid #252525;
+    border-radius: 2px;
+}
+
+
+@media screen and (max-width:1200px) {
+    .workPicArea {
+        width: 50%;
+        float: right;
+        position: relative;
+    }
+    .pWorks .workTxtArea {
+        width: 50%;
+        padding: 0 3rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .pWorks .workTxtArea {
+        padding: 0 2rem;
+    }
+    .workTxtArea .workTxtContent {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        padding-bottom: 2rem;
+    }
+    .workTxtArea h1 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .workTxtArea h3 {
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .pWorks .workPicArea {
+        width: 100%;
+    }
+    .workTxtArea h1 {
+        font-weight: normal;
+        line-height: 2.2rem;
+    }
+    .workTxtArea h3 {
+        font-weight: normal;
+        line-height: 1.8rem;
+        color: #888;
+    }
+    .pWorks .workTxtArea {
+        position: relative;
+        width: 100%;
+        padding: 5.5rem 2rem 2rem;
+        transform: none;
+    }
+    .workBtnBox {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .workTxtArea h1 {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+    .workTxtArea h3 {
+        font-size: 1rem;
+        line-height: 1.6rem;
+    }
+    .pWorks .workTxtArea {
+        padding: 5.5rem 1.5rem 1.5rem;
+    }
+    .workTxtArea .workTxtContent {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        padding-bottom: 2rem;
+    }
+    .workTxtArea .workBackBtn {
+        width: 120px;
+        font-size: 1rem;
+        line-height: 2.2rem;
+    }
+    .workSeries p{
+        font-size: 1rem;
+    }
+}
+
+/*fancybox*/
+
+.fancybox-skin {
+    border-radius: 0px;
+}
+
+.fancybox-title-float-wrap .child {
+    background: transparent;
+    text-shadow: none;
+    font-weight: normal;
+    font-size: 1.25rem;
+    font-family: 'Roboto', 'sans-serif', 'Microsoft JhengHei';
+    letter-spacing: 1px;
+}
+
+.fancybox-close {
+    top: -40px;
+    right: -0px;
+}
+
+/*左右按鈕*/
+
+.fancybox-nav {
+    width: 60px;
+    height: 100%;
+}
+
+.fancybox-nav span {
+    visibility: visible;
+    opacity: 0.5;
+}
+
+.fancybox-nav:hover span {
+    opacity: 1;
+}
+
+.fancybox-next {
+    right: -60px;
+}
+
+.fancybox-prev {
+    left: -60px;
+}
+
+
+/*關閉*/
+
+.closeBtn {
+    position: fixed;
+    top: 2rem;
+    left: 5rem;
+    width: 26px;
+    height: 18px;
+    background: transparent;
+    cursor: pointer;
+    z-index: 100;
+}
+
+.closeBtn span {
+    display: block;
+    background-color: #fff;
+    position: absolute;
+    width: 26px;
+    height: 2px;
+    -webkit-transform-origin: 50% 50%;
+    -moz-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    -o-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.workClose span {
+    background-color: #252525;
+}
+
+.closeBtn span:nth-of-type(1) {
+    width: 16px;
+    top: 0;
+    right: 0;
+    -webkit-transform: rotate(-45deg) translateY(-3.5px) translateX(-5.5px);
+    -moz-transform: rotate(-45deg) translateY(-6.5px) translateX(-5.5px);
+    -ms-transform: rotate(-45deg) translateY(-6.5px) translateX(-5.5px);
+    -o-transform: rotate(-45deg) translateY(-6.5px) translateX(-5.5px);
+    transform: rotate(-45deg) translateY(-7.5px) translateX(-11.5px);
+}
+
+.closeBtn span:nth-of-type(2) {
+    width: 16px;
+    top: 16px;
+    right: 0;
+    -webkit-transform: rotate(45deg) translateY(-6px) translateX(-5.5px);
+    -moz-transform: rotate(45deg) translateY(-6px) translateX(-5.5px);
+    -ms-transform: rotate(45deg) translateY(-6px) translateX(-5.5px);
+    -o-transform: rotate(45deg) translateY(-6px) translateX(-5.5px);
+    transform: rotate(45deg) translateY(7px) translateX(-10px);
+}
+
+.closeBtn span:nth-of-type(3) {
+    top: 8px;
+    right: 0;
+}
+
+.closeBtn:hover span:nth-of-type(3) {
+    width: 40px;
+    right: -14px;
+}
+
+@media screen and (max-width:1200px) {
+    .closeBtn {
+        left: 3rem;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .closeBtn {
+        left: 2rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .closeBtn {
+        position: absolute;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .closeBtn {
+        left: 1.5rem;
+    }
+}
+
+/*app圖切換*/
+
+.workPicArea .workApp {
+    padding: 1rem;
+    position: fixed;
+    bottom: .5rem;
+    right: .5rem;
+    display: block;
+}
+
+.workApp ul {
+    overflow: hidden;
+    list-style: none;
+    text-align: center;
+}
+
+.workApp li {
+    float: left;
+    width: 36px;
+    text-align: center;
+    color: #fff;
+    padding: 0 2px;
+    cursor: pointer
+}
+
+.workApp li b {
+    font-weight: normal;
+    display: block;
+    font-size: 1rem;
+    line-height: 2rem;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.workApp li:hover b {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+@media screen and (max-width:768px) {
+    .workPicArea .workApp {
+        display: none;
+    }
+}

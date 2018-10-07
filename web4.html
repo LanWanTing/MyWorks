@@ -1,0 +1,143 @@
+<html lan="zh-Hant-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0 ,user-scalable=no">
+    <title>APP&amp;WEB網頁設計│Lan Design Works</title>
+    <link href="favicon.ico" rel="icon">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link href="apple-touch-icon.png" rel="apple-touch-icon">
+    <!--微動畫css-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--共用css-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--google字型-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+    <!--jquery-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!--瀑布流-->
+    <script src="js/masonry.pkgd.min.js"></script>
+    <!--圖片讀取完畢-->
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script>
+        /*瀑布流效果*/
+        $(function() {
+            /*$('.masonry').masonry({
+					  itemSelector: '.item'
+					});*/
+            var $container = $('.masonry');
+            //當圖片讀取完畢才執行
+            $container.imagesLoaded(function() {
+                // initialize
+                $container.masonry({
+                    itemSelector: '.item'
+                });
+            });
+        });
+    </script>
+    <!--速度函數表-->
+    <script src="js/jquery.easing.1.3.js"></script>
+    <!--wow-->
+    <script src="js/jquery.wow-1.0.3.min.js"></script>
+    <script>
+        var wow = new WOW({
+            offset: 60, // 距離顯示多遠開始顯示動畫 (預設是0, 因此捲動到顯示時才出現動畫)
+            mobile: true,
+            live: true
+        });
+        wow.init();
+    </script>
+    <!--共用js-->
+    <script src="js/edit/menu.js"></script>
+    <script src="js/edit/analytics.js"></script>
+</head>
+
+<body>
+    <div id="iMain">
+        <header>
+            <h1><a href="index.html">LAN DESIGN WORKS</a></h1>
+            <div class="menuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </header>
+        <div class="menuWrap">
+            <div class="menuBox">
+                <ul class="navBox">
+                    <li class="wow fadeInLeft" data-wow-delay="0.5s"><a href="about.html">ABOUT LAN<br><span>關於我</span></a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="0.8s"><a href="app1.html">APP UI<br><span>APP&amp;UI設計</span></a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="1.1s"><a href="web1.html">APP<b class="simpleTtx">&amp;</b>WEB<br><span>APP&amp;網頁設計</span></a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="1.5s"><a href="graphic1.html">GRAPHIC<br><span>平面設計</span></a></li>
+                    <li class="wow fadeInLeft" data-wow-delay="1.9s"><a href="image1.html">IMAGE<br><span>形象設計</span></a></li>
+                </ul>
+                <p class="wow fadeInDown menuTxt" data-wow-delay="2s">LAN DESIGN WORKS<br><span>2008-2018</span></p>
+            </div>
+        </div>
+        <div class="mainWrap">
+            <h1>APP&nbsp;&amp;&nbsp;WEB</h1>
+            <ul class="masonry proList">
+               <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="web/web4-1.html" title="momo最搶手"><img src="images/2016/20161103_1p.jpg" width="100%" alt="居家西餐秀">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="web/web4-2.html" title="韓冬之戀"><img src="images/2016/20161103_1p.jpg" width="100%" alt="居家西餐秀">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="web/web4-3.html" title="質感內著大賞"><img src="images/2016/20161103_1p.jpg" width="100%" alt="居家西餐秀">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <!--2016-->
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="web/web4-4.html" title="質感內著大賞"><img src="images/2016/20161103_1p.jpg" width="100%" alt="居家西餐秀">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="web/web4-5.html" title="居家西餐秀"><img src="images/2016/20161101_2p.jpg" width="100%" alt="居家西餐秀">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="web/web4-6.html" title="法國瑪莉家族"><img src="images/2016/20161020_1p.jpg" width="100%" alt="法國瑪莉家族">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="web/web4-7.html" title="我的沐浴時光"><img src="images/2016/20161015_1p.jpg" width="100%" alt="我的沐浴時光">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+                <li class="item wow zoomIn" data-wow-delay="0.2s">
+                    <a href="web/web4-8.html" title="24小時瘋狂現折"><img src="images/2016/20160513_1p.jpg" width="100%" alt="24小時瘋狂現折">
+                       <div class="cover"><div class="view">VIEW</div></div>
+                    </a>
+                </li>                
+                <li class="item wow zoomIn" data-wow-delay="0s">
+                    <a href="web/web4-9.html" title="美食吃貨團"><img src="images/2016/20160413_1p.jpg" width="100%" alt="美食吃貨團">
+				        <div class="cover"><div class="view">VIEW</div></div>
+			        </a>
+                </li>
+            </ul>
+            <div class="pageBox">
+                <ul>
+                    <li><a href="web2.html" title="上一頁">&lt;</a></li>
+                    <li><a href="web1.html" title="第1頁">1</a></li>
+                    <li><a href="web2.html" title="第2頁">2</a></li>
+                    <li><a href="javascript:;" title="第3頁" class="thisPage">3</a></li>
+                    <li><a href="javascript:;" title="下一頁" class="noPage">&gt;</a></li>
+                </ul>
+            </div>
+            <footer><span>COPYRIGHT&nbsp;&copy;&nbsp;</span><span>LAN DESIGN WORKS 2008-2018.</span>&nbsp;&nbsp;<span>ALL RIGHTS RESERVED</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>DESIGN BY TINA LAN</span></footer>
+        </div>
+        <div class="topBtn"></div>
+    </div>
+    <div class="ga1"></div>
+</body>
+
+</html>

@@ -3,11 +3,11 @@
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    font-family:'Arial','Microsoft Sans Serif';
+    font-family:'Roboto','sans-serif','微軟正黑體','Microsoft JhengHei';
 }
 
 .workPicArea {
-    width: 50%;
+    width: 45%;
     height: 100%;
     float: right;
     position: relative;
@@ -17,7 +17,10 @@
 .workPicArea .picBox {
     width: 100%;
 }
-
+.picBox img{
+    display: block;
+    margin: 0 auto;
+}
 .app1 {
     opacity: 1;
     display: block;
@@ -33,7 +36,7 @@
 
 .pWorks .workTxtArea {
     position: fixed;
-    width: 50%;
+    width: 55%;
     top: 50%;
     left: 0;
     padding: 0 0 0 10rem;
@@ -58,11 +61,11 @@
 
 .workTxtArea .workTxtContent {
     font-size: 1.25rem;
-    line-height: 2rem;
+    line-height: 2.2rem;
     text-align: justify;
     padding-top: .8rem;
     padding-bottom: 2rem;
-    padding-right: .5rem;
+    padding-right: 0rem;
 }
 
 .workBtnBox {

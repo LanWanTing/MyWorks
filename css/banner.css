@@ -1,0 +1,24 @@
+#iMain .mainWrap {
+    width: 100%;
+    padding: 0rem;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.mainBanner{width: 100%;  background-color: #333;}
+.slick .mb{display: none;}
+.slick-slide{height: auto;}
+.slick-dots{bottom:10px;}
+.slick-dots li{margin: 0px;}
+.slick-dotted.slick-slider{
+    margin-bottom: 0;
+}
+#mainSkill{
+    min-height: 500px;
+    background: url(../images/services.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+@media screen and (max-width: 992px) {
+    .slick .mb{display: block;}
+    .slick .pc{display: none;}
+}

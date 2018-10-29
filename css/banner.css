@@ -12,13 +12,25 @@
 .slick-dotted.slick-slider{
     margin-bottom: 0;
 }
-#mainSkill{
+
+#mainAbout, #mainSkill{
     min-height: 500px;
-    background: url(../images/services.jpg) no-repeat 0px 0px;
+    background: url(../images/services_w.jpg) no-repeat 0px 0px;
     background-size: cover;
     background-attachment: fixed;
+}
+#mainAbout h1{
+    color: #fff;
+    margin: 0;
+    font-size: 2rem;
+    line-height: 5rem;
+    
+}
+#mainWorks{
+    padding: 0 4rem 3rem;
 }
 @media screen and (max-width: 992px) {
     .slick .mb{display: block;}
     .slick .pc{display: none;}
+    #mainAbout, #mainSkill{ background: url(../images/services_m.jpg) no-repeat 0px 0px; background-size: cover; background-attachment: fixed;}
 }

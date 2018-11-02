@@ -177,6 +177,12 @@
 }
 
 @media screen and (max-width: 768px) {
+    .slick .pc {
+        display: none;
+    }
+    .slick .mb {
+        display: block;
+    }
     #mainWorks {
         padding: 1.5rem 1.5rem 3rem;
     }
@@ -235,20 +241,6 @@
     }
 }
 
-
-/*
-@media screen and (max-width: 1280px) {
-
-}
-
-@media screen and (max-width: 992px) {
-
-}
-
-@media screen and (max-width: 768px) {
-
-}
-*/
 
 footer {
     color: #333;

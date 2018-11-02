@@ -35,6 +35,7 @@
                 });
             });
         });
+
     </script>
     <!--速度函數表-->
     <script src="js/jquery.easing.1.3.js"></script>
@@ -47,6 +48,7 @@
             live: true
         });
         wow.init();
+
     </script>
     <!--幻燈片-->
     <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
@@ -74,6 +76,7 @@
                 }, ]
             });
         });
+
     </script>
     <!--parallax-->
     <script src="js/parallax/jquery.parallax-1.1.3.js"></script>
@@ -84,12 +87,13 @@
             //.parallax(xPosition, speedFactor, outerHeight) 設定選項:
             //xPosition - 水平位置
             //speedFactor - 滾動速度
-            $('#mainBanner').parallax("50%", 0.5);
+            $('#mainBanner').parallax("0%", 0.5);
             $('#mainSkill').parallax("0%", 0.5);
-            $('#mainWorks').parallax("50%", 0.5);
+            $('#mainWorks').parallax("0%", 0.5);
         });
+
     </script>
-    
+
     <!--共用js-->
     <script src="js/edit/menu.js"></script>
     <script src="js/edit/analytics.js"></script>
@@ -137,12 +141,11 @@
             <!--banner結束-->
             <!--能力說明開始-->
             <div id="mainAbout">
-                <h1>About Me</h1>
             </div>
             <!--能力說明結束-->
             <!--精選作品開始-->
             <div id="mainWorks">
-               <h1>精選作品</h1>
+                <h2>精選作品</h2>
                 <ul class="masonry proList">
                     <li class="item wow zoomIn" data-wow-delay="0.2s">
                         <a href="web/web1-4.html" title="今夏新冰樂"><img src="images/2018/20180625_1p.jpg" width="100%" alt="今夏新冰樂">
@@ -174,11 +177,72 @@
                             <div class="cover"><div class="view">VIEW</div></div>
                         </a>
                     </li>
-                </ul>                
+                </ul>
             </div>
             <!--精選作品結束-->
             <!--能力說明開始-->
             <div id="mainSkill">
+                <h2>SKILL</h2>
+                <div class="skillArea">
+                    <ul class="skillList">
+                        <li>
+                            <div class="skillBox">
+                                <img src="images/html5.png" alt="" width="100%">
+                                <h6 class="skillTitle">HTML5</h6>
+                                <p class="skillTxt">WEB主要架構<br>網頁建置主要語法</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillBox">
+                                <img src="images/css3.png" alt="" width="100%">
+                                <h6 class="skillTitle">CSS3</h6>
+                                <p class="skillTxt">網頁排版與佈局<br>網頁樣式語法</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillBox">
+                                <img src="images/jquery.png" alt="" width="100%">
+                                <h6 class="skillTitle">JQUERY</h6>
+                                <p class="skillTxt">網頁前端互動功能<br>與動態效果語法</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillBox">
+                                <img src="images/bootstrap.png" alt="" width="100%">
+                                <h6 class="skillTitle">Bootstrap</h6>
+                                <p class="skillTxt">WEB開發元件<br>網頁前端框架</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillBox">
+                                <img src="images/photoshop.png" alt="" width="100%">
+                                <h6 class="skillTitle">Photoshop</h6>
+                                <p class="skillTxt">Adobe<br>影像處理軟體</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillBox">
+                                <img src="images/illustrator.png" alt="" width="100%">
+                                <h6 class="skillTitle">Illustrator</h6>
+                                <p class="skillTxt">Adobe<br>向量圖形設計軟體</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillBox">
+                                <img src="images/dreamweaver.png" alt="" width="100%">
+                                <h6 class="skillTitle">Dreamweaver</h6>
+                                <p class="skillTxt">Adobe<br>網頁編輯軟體</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="skillBox">
+                                <img src="images/animate.png" alt="" width="100%">
+                                <h6 class="skillTitle">Animate</h6>
+                                <p class="skillTxt">Adobe<br>2D動畫編輯軟體</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
             <!--能力說明結束-->
             <footer><span>COPYRIGHT&nbsp;&copy;&nbsp;</span><span>LAN DESIGN WORKS 2008-2018.</span>&nbsp;&nbsp;<span>ALL RIGHTS RESERVED</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>DESIGN BY TINA LAN</span></footer>

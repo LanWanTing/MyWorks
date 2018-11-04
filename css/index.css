@@ -194,14 +194,14 @@ footer {
     #mainAbout,
     #mainSkill {
         background-image: url(../images/services_m2.jpg);
-        background-position: center top;
+        background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -ms-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -ms-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
     }
     #mainWorks {
         padding: 1.5rem 1.5rem 3rem;

@@ -35,7 +35,15 @@
     background-image: url(../images/services_w.jpg);
     background-position: center center;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
     background-repeat: no-repeat;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -ms-background-attachment: fixed;
+    -o-background-attachment: fixed;
     background-attachment: fixed;
 }
 
@@ -46,8 +54,16 @@
 #mainSkill {
     background-image: url(../images/services_w.jpg);
     background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+    -webkit-background-attachment: fixed;
+    -moz-background-attachment: fixed;
+    -ms-background-attachment: fixed;
+    -o-background-attachment: fixed;
     background-attachment: fixed;
     padding: 1.8rem 0;
 }
@@ -193,8 +209,16 @@
     #mainSkill, #mainAbout {
         background-image: url(../images/services_m.jpg);
         background-position: center center;
-        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-attachment: fixed;
         background-repeat: no-repeat;
+        -webkit-background-attachment: fixed;
+        -moz-background-attachment: fixed;
+        -ms-background-attachment: fixed;
+        -o-background-attachment: fixed;
         background-attachment: fixed;
     }
     .skillList li {

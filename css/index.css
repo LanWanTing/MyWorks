@@ -183,7 +183,7 @@
         padding: 1.5rem 1.5rem 3rem;
     }
     #mainSkill, #mainAbout {
-        background: url(../images/services_m.jpg) 50% 0 no-repeat fixed;
+        background: url(../images/services_m.jpg) 0 0 no-repeat fixed;
         background-size: cover;
     }
     .skillList li {

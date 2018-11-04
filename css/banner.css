@@ -32,8 +32,7 @@
 
 #mainAbout {
     min-height: 500px;
-    background: url(../images/services_w.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(../images/services_w.jpg) center center/cover no-repeat fixed;
     background-attachment: fixed;
 }
 
@@ -42,8 +41,7 @@
 }
 
 #mainSkill {
-    background: url(../images/services_w.jpg) no-repeat center center;
-    background-size: cover;
+    background: url(../images/services_w.jpg) center center/cover no-repeat fixed;
     background-attachment: fixed;
     padding: 1.8rem 0;
 }
@@ -187,9 +185,7 @@
         padding: 1.5rem 1.5rem 3rem;
     }
     #mainSkill, #mainAbout {
-        background: url(../images/services_m.jpg) no-repeat center center;
-        background-size: cover;
-        background-attachment: fixed;
+        background: url(../images/services_m.jpg) center center/cover no-repeat fixed; 
     }
     .skillList li {
         padding: 0 .5rem;

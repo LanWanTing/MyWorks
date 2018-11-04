@@ -186,7 +186,7 @@
     #mainWorks {
         padding: 1.5rem 1.5rem 3rem;
     }
-    #mainSkill {
+    #mainSkill, #mainAbout {
         background: url(../images/services_m.jpg) no-repeat center center;
         background-size: cover;
         background-attachment: fixed;

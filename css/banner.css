@@ -189,7 +189,7 @@
     #mainSkill {
         background: url(../images/services_m.jpg) no-repeat center center;
         background-size: cover;
-        background-attachment: scroll;
+        background-attachment: fixed;
     }
     .skillList li {
         padding: 0 .5rem;

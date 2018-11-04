@@ -192,8 +192,7 @@ footer {
 }
 
 @media screen and (max-width:768px) {
-    #mainAbout,
-    #mainSkill {
+    #mainAbout {
         background-image: url(../images/bk_m.jpg);
         background-position: center top;
         background-repeat: no-repeat;
@@ -204,7 +203,6 @@ footer {
         -o-background-size: 100%;
         background-size: 100%;
     }
-    #mainAbout,
     #mainSkill {
         background-image: url(../images/bk_m.jpg);
         background-position: center top;

@@ -31,8 +31,11 @@
 }
 
 #mainAbout {
-    min-height: 500px;
-    background: url(../images/services_w.jpg) center center/cover no-repeat fixed;
+    height: 300px;
+    background-image: url(../images/services_w.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
@@ -41,7 +44,10 @@
 }
 
 #mainSkill {
-    background: url(../images/services_w.jpg) center center/cover no-repeat fixed;
+    background-image: url(../images/services_w.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 1.8rem 0;
 }
@@ -185,7 +191,11 @@
         padding: 1.5rem 1.5rem 3rem;
     }
     #mainSkill, #mainAbout {
-        background: url(../images/services_m.jpg) center center/cover no-repeat fixed; 
+        background-image: url(../images/services_m.jpg);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
     }
     .skillList li {
         padding: 0 .5rem;

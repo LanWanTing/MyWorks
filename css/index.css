@@ -225,7 +225,12 @@ footer {
         font-size: .9rem;
         line-height: 1.25rem;
     }
-
+    .slick .mb {
+        display: block;
+    }
+    .slick .pc {
+        display: none;
+    }
 }
 
 @media screen and (max-width:576px) {

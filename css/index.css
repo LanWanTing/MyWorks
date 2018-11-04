@@ -33,7 +33,7 @@
 #mainAbout,
 #mainSkill {
     background-image: url(../images/services_w.jpg);
-    background-position: center center;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     -webkit-background-size: cover;
@@ -192,7 +192,7 @@ footer {
     #mainAbout,
     #mainSkill {
         background-image: url(../images/services_m.jpg);
-        background-position: center center;
+        background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         -webkit-background-size: cover;

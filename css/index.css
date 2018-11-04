@@ -42,9 +42,11 @@
     -o-background-size: cover;
     background-size: cover;
 }
-#mainAbout{
+
+#mainAbout {
     height: 300px;
 }
+
 #mainWorks {
     padding: 1.5rem 4rem 3rem;
 }

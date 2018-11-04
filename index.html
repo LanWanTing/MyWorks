@@ -56,24 +56,27 @@
     <script src="js/slick/slick.min.js"></script>
     <script>
         $(function() {
-            $('.slick').slick({
-                dots: true, //顯示輪播圖片會顯示圓圈
-                infinite: true, //重覆輪播
-                slidesToShow: 1, //輪播顯示個數
-                slidesToScroll: 1, //輪播捲動個數
-                autoplay: true, //autoplay : 自動播放
-                autoplaySpeed: 4000, //切換圖片間隔時間
-                fade: true, //淡入淡出
-                pauseOnHover: false,
-                responsive: [{
-                    breakpoint: 992,
-                    settings: {
-                        dots: false,
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        arrows: false
-                    }
-                }, ]
+            var $iBanner = $('.slick');
+            $iBanner.imagesLoaded(function() {
+                $iBanner.slick({
+                    dots: true, //顯示輪播圖片會顯示圓圈
+                    infinite: true, //重覆輪播
+                    slidesToShow: 1, //輪播顯示個數
+                    slidesToScroll: 1, //輪播捲動個數
+                    autoplay: true, //autoplay : 自動播放
+                    autoplaySpeed: 4000, //切換圖片間隔時間
+                    fade: true, //淡入淡出
+                    pauseOnHover: false,
+                    responsive: [{
+                        breakpoint: 992,
+                        settings: {
+                            dots: false,
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            arrows: false
+                        }
+                    }, ]
+                });
             });
         });
 
@@ -84,12 +87,19 @@
     <script src="js/parallax/jquery.scrollTo-1.4.2-min.js"></script>
     <script type="text/javascript">
         $(function() {
+            var $iAbout = $('#mainAbout');
+            var $iSkill = $('#mainSkill');
+            $iAbout.imagesLoaded(function() {
+                $iAbout.parallax("50%", 0.5);
+            });
+            $iSkill.imagesLoaded(function() {
+                $iSkill.parallax("50%", 0.5);
+            });
             //.parallax(xPosition, speedFactor, outerHeight) 設定選項:
             //xPosition - 水平位置
             //speedFactor - 滾動速度
-            $('#mainAbout').parallax("50%", 0.5);
-            $('#mainSkill').parallax("50%", 2);
         });
+
     </script>
     <!--共用js-->
     <script src="js/edit/menu.js"></script>

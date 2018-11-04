@@ -33,7 +33,7 @@
 #mainAbout {
     height: 300px;
     background-image: url(../images/services_w.jpg);
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
@@ -53,7 +53,7 @@
 
 #mainSkill {
     background-image: url(../images/services_w.jpg);
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-attachment: fixed;
     -moz-background-attachment: fixed;
@@ -209,7 +209,7 @@
     #mainSkill,
     #mainAbout {
         background-image: url(../images/services_m.jpg);
-        background-position: center top;
+        background-position: center center;
         background-repeat: no-repeat;
         -webkit-background-attachment: fixed;
         -moz-background-attachment: fixed;

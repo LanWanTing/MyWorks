@@ -245,6 +245,28 @@ footer {
 }
 
 @media screen and (max-width:576px) {
+    #mainAbout {
+        background-image: url(../images/bk_m.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -ms-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+    }
+    #mainSkill {
+        background-image: url(../images/bk_m.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
     #mainWorks h2,
     #mainSkill h2,
     #mainAbout h2 {
@@ -278,6 +300,28 @@ footer {
 }
 
 @media screen and (max-width:410px) {
+    #mainAbout {
+        background-image: url(../images/bk_m.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -ms-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+    }
+    #mainSkill {
+        background-image: url(../images/bk_m.jpg);
+        background-position: center top;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
     .skillArea {
         padding: 0 .5rem;
     }

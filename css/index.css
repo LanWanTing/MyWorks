@@ -184,6 +184,7 @@
     }
     #mainSkill, #mainAbout {
         background: url(../images/services_m.jpg) 50% 0 no-repeat fixed;
+        background-size: cover;
     }
     .skillList li {
         padding: 0 .5rem;

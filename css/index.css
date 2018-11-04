@@ -30,15 +30,11 @@
     margin-bottom: 0;
 }
 
-#mainAbout {
-    height: 300px;
+#mainAbout,
+#mainSkill {
     background-image: url(../images/services_w.jpg);
     background-position: center center;
     background-repeat: no-repeat;
-    -webkit-background-attachment: fixed;
-    -moz-background-attachment: fixed;
-    -ms-background-attachment: fixed;
-    -o-background-attachment: fixed;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -46,25 +42,14 @@
     -o-background-size: cover;
     background-size: cover;
 }
-
+#mainAbout{
+    height: 300px;
+}
 #mainWorks {
-    padding: 1.5rem 6rem 3rem;
+    padding: 1.5rem 4rem 3rem;
 }
 
 #mainSkill {
-    background-image: url(../images/services_w.jpg);
-    background-position: center top;
-    background-repeat: no-repeat;
-    -webkit-background-attachment: fixed;
-    -moz-background-attachment: fixed;
-    -ms-background-attachment: fixed;
-    -o-background-attachment: fixed;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     padding: 1.8rem 0;
 }
 
@@ -107,10 +92,7 @@
     padding: 1rem 0;
     background-color: rgba(0, 0, 0, 0);
     transition: all .6s;
-}
-
-.skillBox:hover {
-    background-color: rgba(0, 0, 0, .8);
+    overflow: hidden;
 }
 
 .skillBox img {
@@ -130,148 +112,12 @@
 }
 
 .skillTxt {
+    display: block;
     color: #fff;
     text-align: center;
     font-size: 1rem;
     line-height: 1.5rem;
 }
-
-@media screen and (max-width: 1500px) {
-    #mainWorks {
-        padding: 1.5rem 4rem 3rem;
-    }
-    .skillArea {
-        padding: 0 4rem;
-    }
-    .skillBox img {
-        padding-bottom: .5rem;
-    }
-    .skillTitle {
-        font-size: 1rem;
-        padding-bottom: .5rem;
-    }
-    .skillTxt {
-        font-size: .9rem;
-        line-height: 1.25rem;
-    }
-
-}
-
-@media screen and (max-width: 1280px) {
-    .skillList li {
-        width: calc(100%/4);
-        padding: 0 1rem;
-    }
-    .skillBox img {
-        padding-bottom: .6rem;
-    }
-    .skillTitle {
-        font-size: 1.25rem;
-        padding-bottom: .6rem;
-    }
-    .skillTxt {
-        font-size: 1rem;
-        line-height: 1.5rem;
-    }
-
-}
-
-@media screen and (max-width: 992px) {
-    #mainWorks {
-        padding: 1.5rem 2.1rem 3rem;
-    }
-    .skillArea {
-        padding: 0 2rem;
-    }
-    .skillList li {
-        width: calc(100%/4);
-        padding: 0 .5rem;
-    }
-    .skillBox img {
-        padding-bottom: .5rem;
-    }
-    .skillTitle {
-        font-size: 1rem;
-        padding-bottom: .5rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    .slick .pc {
-        display: none;
-    }
-    .slick .mb {
-        display: block;
-    }
-    #mainWorks {
-        padding: 1.5rem 1.5rem 3rem;
-    }
-    #mainSkill,
-    #mainAbout {
-        background-image: url(../images/services_m.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        -webkit-background-attachment: fixed;
-        -moz-background-attachment: fixed;
-        -ms-background-attachment: fixed;
-        -o-background-attachment: fixed;
-        background-attachment: fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -ms-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-    }
-    .skillList li {
-        padding: 0 .5rem;
-    }
-    .skillBox img {
-        padding: 0;
-    }
-    .skillTitle {
-        font-size: .9rem;
-    }
-    .skillTxt {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 576px) {
-    #mainWorks {
-        padding: 1.5rem 1rem 3rem;
-    }
-    .skillArea {
-        padding: 0 1rem;
-    }
-    .skillList li {
-        width: calc(100%/2);
-        padding: 0 2rem;
-    }
-    .skillBox {
-        padding: .6rem 0;
-    }
-    .skillBox img {
-        padding: 0 2rem;
-        padding-bottom: .5rem;
-    }
-    .skillTitle {
-        font-size: 1rem;
-    }
-}
-
-@media screen and (max-width: 420px) {
-    .skillList li {
-        width: calc(100%/2);
-        padding: 0 .6rem;
-    }
-    .skillBox img {
-        padding-bottom: .25rem;
-    }
-    .skillTitle {
-        padding-bottom: 0rem;
-    }
-}
-
 
 footer {
     color: #333;
@@ -279,4 +125,159 @@ footer {
     padding-top: 1rem;
     padding-bottom: 1rem;
     line-height: 1.6rem;
+}
+
+@media screen and (max-width:1400px) {
+    .skillList li {
+        padding: 0 .25rem;
+    }
+    .skillBox img {
+        padding: 0 2rem;
+        padding-bottom: .6rem;
+    }
+    .skillTitle {
+        font-size: 1rem;
+        padding-bottom: .6rem;
+        letter-spacing: 1px;
+    }
+
+    .skillTxt {
+        font-size: .9rem;
+        line-height: 1.25rem;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #mainWorks {
+        padding: 1.5rem 2.1rem 3rem;
+    }
+    .skillArea {
+        padding: 0 7rem;
+    }
+    .skillBox img {
+        padding: 0 3rem;
+        padding-bottom: .5rem;
+    }
+    .skillList li {
+        width: calc(100%/4);
+        padding: 0 1rem;
+    }
+    .skillTitle {
+        font-size: 1.25rem;
+        padding-bottom: .5rem;
+        letter-spacing: 1px;
+    }
+
+    .skillTxt {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+}
+
+@media screen and (max-width:992px) {
+    .skillArea {
+        padding: 0 4rem;
+    }
+    .skillBox img {
+        padding: 0 2.5rem;
+        padding-bottom: .5rem;
+    }
+    .skillList li {
+        padding: 0 .5rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    #mainAbout,
+    #mainSkill {
+        background-image: url(../images/services_m.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -ms-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    #mainWorks {
+        padding: 1.5rem 1.5rem 3rem;
+    }
+    .skillArea {
+        padding: 0 1.5rem;
+    }
+    .skillBox img {
+        padding: 0 1.5rem;
+        padding-bottom: .25rem;
+    }
+    .skillList li {
+        padding: 0 .25rem;
+    }
+    .skillTitle {
+        font-size: 1rem;
+        padding-bottom: .25rem;
+    }
+
+    .skillTxt {
+        font-size: .9rem;
+        line-height: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width:576px) {
+    #mainWorks h2,
+    #mainSkill h2,
+    #mainAbout h2 {
+        font-size: 1.5rem;
+        line-height: 3rem;
+        letter-spacing: 1.5px;
+    }
+    #mainWorks {
+        padding: 1.5rem 1rem 3rem;
+    }
+    .skillArea {
+        padding: 0 3rem;
+    }
+    .skillList li {
+        width: calc(100%/2);
+        padding: 0 .5rem;
+    }
+    .skillBox img {
+        padding: 0 2.5rem;
+        padding-bottom: .5rem;
+    }
+    .skillTitle {
+        font-size: 1.25rem;
+        padding-bottom: .5rem;
+    }
+
+    .skillTxt {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width:410px) {
+    .skillArea {
+        padding: 0 .5rem;
+    }
+    .skillList li {
+        width: calc(100%/2);
+        padding: 0 .5rem;
+    }
+    .skillBox img {
+        padding: 0 2.25rem;
+        padding-bottom: .25rem;
+    }
+    .skillTitle {
+        font-size: 1rem;
+        padding-bottom: .25rem;
+    }
+
+    .skillTxt {
+        font-size: .9rem;
+        line-height: 1.25rem;
+    }
 }

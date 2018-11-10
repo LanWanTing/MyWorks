@@ -60,11 +60,11 @@
 #mainAbout h2 {
     color: #fff;
     margin: 0;
-    font-size: 2rem;
+    font-size: 1.8rem;
     line-height: 3rem;
     text-align: center;
     font-weight: normal;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 #mainWorks h2 {

@@ -22,7 +22,10 @@
 
 .app2,
 .app3,
-.app4 {
+.app4,
+.app5,
+.app6,
+.app7{
     opacity: 0;
     display: none;
 }

@@ -585,6 +585,8 @@ footer span {
 /*animate zoomIn 修改===================================================================*/
 
 .zoomIn {
+    -webkit-animation-name: zoomIn;
+    animation-name: zoomIn;
     -webkit-animation-duration: .8s;
     animation-duration: .8s;
 }
@@ -636,5 +638,46 @@ footer span {
         opacity: 1;
     }
 }
+
+/*animate slideInUp 修改===================================================================*/
+
+.slideInUp {
+    -webkit-animation-name: slideInUp;
+    animation-name: slideInUp;
+    -webkit-animation-duration: .6s;
+    animation-duration: .6s;
+}
+
+@-webkit-keyframes slideInUp {
+    from {
+        -webkit-transform: translate3d(0, 80%, 0);
+        transform: translate3d(0, 80%, 0);
+        visibility: visible;
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInUp {
+    from {
+        -webkit-transform: translate3d(0, 80%, 0);
+        transform: translate3d(0, 80%, 0);
+        visibility: visible;
+        opacity: 0;
+    }
+
+    to {
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+    }
+}
+
+
 
 /*test*/

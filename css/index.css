@@ -82,7 +82,7 @@
     margin: 0 auto;
 }
 
-#mainAbout .linkBox {
+.linkBox {
     display: block;
     padding: 0 .5rem;
     border: 2px solid #fff;
@@ -97,11 +97,21 @@
     transition: all .4s;
 }
 
-#mainAbout .linkBox:hover {
+.linkBox:hover {
     background-color: #fff;
     color: #000;
     font-weight: bold;
 }
+.reverse{
+    border: 2px solid #222;
+    color: #222;
+}
+.reverse:hover {
+    background-color: #222;
+    color: #fff;
+    font-weight: bold;
+}
+
 
 .skillArea {
     width: 100%;

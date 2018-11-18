@@ -450,3 +450,7 @@
 .workApp li:hover b {
     background-color: rgba(0, 0, 0, 1);
 }
+
+.workApp li .stay{
+    background-color: rgba(0, 0, 0, 1);
+}

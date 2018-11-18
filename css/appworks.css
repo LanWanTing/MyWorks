@@ -58,7 +58,7 @@
 /*切換選單*/
 
 .workApp {
-    padding: .6rem 0;
+    padding: .6rem 0rem;
     display: block;
     width: 100%;
     max-width: 640px;
@@ -95,6 +95,11 @@
 }
 .workApp li .stay{
     background-color: rgba(0, 0, 0, 1);
+}
+@media screen and (max-width:768px) {
+    .workApp {
+        padding: .6rem 1.25rem;
+    }
 }
 
 /*關閉*/

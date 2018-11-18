@@ -87,7 +87,7 @@ $(function () {
     if (viewW <= 768) {
         $(window).scroll(function () {
             var scrollValue = $(window).scrollTop();
-            var targetScroll = $('.workTxtContent').offset().top;
+            var targetScroll = $('.workTxtContent').offset().top();
             if (scrollValue >= targetScroll) {
                 $('.workApp').stop(true, true).fadeIn(1000);
             } else {

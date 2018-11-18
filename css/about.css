@@ -196,6 +196,10 @@
     footer {
         padding: 2rem 1.6rem 0;
     }
+    .myPhoto{
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
 }
 
 @media screen and (max-width:410px) {
@@ -216,9 +220,5 @@
     }
     footer {
         padding: 2rem 1rem 0;
-    }
-    .myPhoto{
-        margin: 0 auto;
-        margin-bottom: 20px;
     }
 }

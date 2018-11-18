@@ -3,7 +3,7 @@
     position: relative;
     margin: 0 auto;
     overflow: hidden;
-    font-family:'Roboto','sans-serif','微軟正黑體','Microsoft JhengHei';
+    font-family: 'Roboto', 'sans-serif', '微軟正黑體', 'Microsoft JhengHei';
 }
 
 .workPicArea {
@@ -11,16 +11,19 @@
     height: 100%;
     float: right;
     position: relative;
-    padding: 5% 0;
+    padding: 4% 0;
 }
 
 .workPicArea .picBox {
-    width: 100%;
-}
-.picBox img{
-    display: block;
     margin: 0 auto;
 }
+
+.picBox img {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
+
 .app1 {
     opacity: 1;
     display: block;
@@ -41,6 +44,7 @@
     left: 0;
     padding: 0 0 0 10rem;
     transform: translate(0, -50%);
+    overflow: auto;
 }
 
 .workTxtArea h1 {
@@ -48,7 +52,7 @@
     line-height: 4rem;
     text-align: center;
     letter-spacing: .2px;
-    font-size: 2.8rem;
+    font-size: 2.5rem;
 }
 
 .workTxtArea h3 {
@@ -137,7 +141,6 @@
 .workSeries ul {
     list-style: none;
     overflow: hidden;
-    width: 100%;
 }
 
 .workSeries li {
@@ -146,6 +149,7 @@
     padding-left: 0;
     text-align: center;
 }
+
 .workSeries li a {
     text-decoration: none;
     padding: .5rem .7rem;
@@ -175,10 +179,22 @@
         padding: 0 3rem;
     }
 }
-
+/*
 @media screen and (max-width:992px) {
     .pWorks .workTxtArea {
         padding: 0 2rem;
+    }
+    .workPicArea .picBox {
+        padding: 0 2rem;
+    }
+    .workPicArea{
+        margin: auto 0;
+    }
+    .picBox img {
+        display: block;
+        margin: 0 auto;
+        height: auto;
+        width: 100%;
     }
     .workTxtArea .workTxtContent {
         font-size: 1.2rem;
@@ -193,14 +209,17 @@
         line-height: 1.5rem;
     }
 }
-
-@media screen and (max-width:768px) {
+*/
+@media screen and (max-width:992px) {
+    .workPicArea{
+        padding: 2% 0 4%;
+    }
     .pWorks .workPicArea {
         width: 100%;
     }
     .workTxtArea h1 {
         font-weight: normal;
-        line-height: 2.2rem;
+        line-height: 4rem;
     }
     .workTxtArea h3 {
         font-weight: normal;
@@ -210,18 +229,27 @@
     .pWorks .workTxtArea {
         position: relative;
         width: 100%;
-        padding: 5.5rem 2rem 2rem;
+        padding: 5.5rem 4.5rem 2rem;
         transform: none;
     }
     .workBtnBox {
+        margin: 0 auto;
+    }
+    .workBtnBox {
+        width: auto;
+    }
+
+    .workPrevBtn,
+    .workNextBtn {
+        float: none;
         margin: 0 auto;
     }
 }
 
 @media screen and (max-width:576px) {
     .workTxtArea h1 {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
+        font-size: 1.75rem;
+        line-height: 3rem;
     }
     .workTxtArea h3 {
         font-size: 1rem;
@@ -232,16 +260,17 @@
     }
     .workTxtArea .workTxtContent {
         font-size: 1rem;
-        line-height: 1.5rem;
-        padding-bottom: 2rem;
+        line-height: 1.75rem;
+        padding-bottom: 1.5rem;
     }
     .workTxtArea .workBackBtn {
         width: 120px;
         font-size: 1rem;
         line-height: 2.2rem;
     }
-    .workSeries p{
+    .workSeries p {
         font-size: 1rem;
+        padding-top: 0rem;
     }
 }
 
@@ -365,11 +394,6 @@
 @media screen and (max-width:992px) {
     .closeBtn {
         left: 2rem;
-    }
-}
-
-@media screen and (max-width:768px) {
-    .closeBtn {
         position: absolute;
     }
 }

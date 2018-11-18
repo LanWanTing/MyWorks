@@ -198,7 +198,7 @@ header .menuBtn {
     width: 100%;
     height: 100%;
     z-index: 60;
-    padding: 20% 20% 16%;
+    padding: 12% 10% 5%;
 }
 
 .menuWrap .menuBox {
@@ -275,20 +275,17 @@ header .menuBtn {
 
 @media (max-aspect-ratio: 16/9) {
     #iMain .menuWrap {
-        padding: 18rem 14% 16rem;
+        padding: 12% 5% 3%;
     }
 }
 
 @media screen and (max-width:1200px) {
     #iMain .menuWrap {
-        padding: 18rem 5% 16rem;
+        padding: 12% 5% 3%;
     }
 }
 
 @media screen and (max-width:992px) {
-    #iMain .menuWrap {
-        padding: 6rem 20% 2rem;
-    }
     .navBox li {
         width: 100%;
         padding: 1rem;

@@ -132,7 +132,6 @@
 
 .workSeries p {
     font-size: 1.1rem;
-    padding-top: 2rem;
     padding-bottom: .5rem;
     color: #666666;
     text-align: center;
@@ -176,43 +175,12 @@
     }
     .pWorks .workTxtArea {
         width: 50%;
-        padding: 0 3rem;
+        padding: 0 0 0 6rem;
     }
 }
-/*
-@media screen and (max-width:992px) {
-    .pWorks .workTxtArea {
-        padding: 0 2rem;
-    }
-    .workPicArea .picBox {
-        padding: 0 2rem;
-    }
-    .workPicArea{
-        margin: auto 0;
-    }
-    .picBox img {
-        display: block;
-        margin: 0 auto;
-        height: auto;
-        width: 100%;
-    }
-    .workTxtArea .workTxtContent {
-        font-size: 1.2rem;
-        line-height: 1.8rem;
-        padding-bottom: 2rem;
-    }
-    .workTxtArea h1 {
-        font-size: 1.8rem;
-        line-height: 2.2rem;
-    }
-    .workTxtArea h3 {
-        line-height: 1.5rem;
-    }
-}
-*/
 @media screen and (max-width:992px) {
     .workPicArea{
-        padding: 2% 0 4%;
+        padding: 2% 0 5%;
     }
     .pWorks .workPicArea {
         width: 100%;
@@ -267,6 +235,9 @@
         width: 120px;
         font-size: 1rem;
         line-height: 2.2rem;
+    }
+    workSeries{
+        margin-bottom: 1rem;  
     }
     .workSeries p {
         font-size: 1rem;

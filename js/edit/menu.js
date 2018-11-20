@@ -26,7 +26,7 @@ $(function(){
     /*topBtn置頂按鈕*/
     $(window).scroll(function () {
         var scrollValue = $(window).scrollTop();
-        var targetScroll = $('.proList').offset().top();
+        var targetScroll = $('.proList').offset().top;
         if (scrollValue >= targetScroll) {
             $('.topBtn').stop(true,true).fadeIn(1000);
         } else {

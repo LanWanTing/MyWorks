@@ -10,7 +10,12 @@
     float: right;
     position: relative;
 }
-
+.workPicArea.workPC{
+    width: 100%;
+    float: none;
+    position: relative;
+    padding: 0 5rem;
+}
 .workPicArea .picBox {
     width: 100%;
 }
@@ -40,6 +45,19 @@
     transform: translate(0, -50%);
 }
 
+.pWorks .workTxtArea.workPC{
+    position: relative;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    padding: 6rem 4rem 6rem 5rem;
+    transform: translate(0, 0%);
+}
+@media screen and (max-width:767px){
+    .pWorks .workTxtArea.workPC{
+        padding: 20vw 5vw 10vw 8vw;
+    }
+}
 .workTxtArea h1 {
     font-weight: normal;
     line-height: 2.5rem;
@@ -411,5 +429,19 @@
 @media screen and (max-width:768px) {
     .workPicArea .workApp {
         display: none;
+    }
+}
+
+
+
+
+
+.for_pc {}
+.for_phone { display:none !important;}
+@media screen and (max-width:767px){
+    .for_pc { display:none !important;}
+	.for_phone { display: inherit !important;}
+}
+        
     }
 }

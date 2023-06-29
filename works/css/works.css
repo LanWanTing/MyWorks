@@ -4,6 +4,11 @@
     padding: 1rem;
 }
 
+.mainWrap.appcard .proList li {
+        width: 25%;
+        padding: .7rem;
+}
+
 
 .pWorks {
     width: 100%;
@@ -169,6 +174,10 @@
         width: calc(100%/3);
         padding: .6rem;
     }
+    .mainWrap.appcard .proList li {
+        width: 25%;
+        padding: .6rem;
+    }
 }
 
 @media screen and (max-width:1100px) {
@@ -203,6 +212,10 @@
     }
     .mainWrap .proList li {
         width: calc(100%/3);
+        padding: .7rem;
+    }
+    .mainWrap.appcard .proList li {
+        width: 25%;
         padding: .7rem;
     }
 }

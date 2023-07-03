@@ -471,7 +471,7 @@ header .menuBtn {
 /*page頁碼*/
 
 .pageBox {
-    width: 205px;
+    width: 240px;
     margin: 2rem auto;
     border: #aaa solid 1px;
     border-radius: 3px;
@@ -485,7 +485,7 @@ header .menuBtn {
 
 .pageBox ul li {
     float: left;
-    width: calc(100%/6);
+    width: calc(100%/7);
     text-align: center;
     border-right: #999 solid 1px;
 }
@@ -516,7 +516,7 @@ header .menuBtn {
 @media screen and (max-width:576px) {
     #iMain .pageBox {
         margin: 1rem auto;
-        width: 165px;
+        width: 180px;
     }
     .pageBox ul li a {
         font-size: .9rem;
